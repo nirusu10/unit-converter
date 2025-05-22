@@ -1,3 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6943ff;
+  color: #fff;
+  padding: 32px 50px;
+}
+
+#title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+#number-input {
+  max-width: 120px;
+  font-size: 3.625rem;
+  font-weight: 800;
+  text-align: center;
+  background-color: inherit;
+  color: #fff;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+#convert-btn {
+  font-size: 1rem;
+  padding: 9px 27px;
+  color: #3d3d3d;
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#info {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 36px 25px;
+}
+
+.conversion-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.conversion-title {
+  color: #5a537b;
+}
+
+.conversion-info {
+  color: #353535;
 }
